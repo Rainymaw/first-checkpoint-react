@@ -1,0 +1,44 @@
+.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0% 25%;
+  margin-top: 10%;
+  justify-content: space-between;
+}
+.landing-title {
+  font-size: 49px;
+  text-align: center;
+}
+.landing-description {
+  font-size: 1.25rem;
+  text-align: center;
+}
+.landing-cryptos {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+.coins {
+  background-color: white;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+
+.landing-buy {
+  padding: 10px 40px;
+  background-color: #3e7dff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+
+.landing-buy:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(#0d4f89, #1e1e3c);
+  height: 75px;
+  top: 0px;
+  width: 100%;
+  font-size: 2rem;
+  position: fixed;
+  align-items: center;
+  z-index: 1000;
+}
+.navbar-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.navbar-btn {
+  padding: 10px 30px;
+  font-size: 1.25rem;
+  border-radius: 25px;
+  border: 1px white solid;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.navbar-btn:hover {
+  background-color: white;
+  color: #1e1e3c;
+}

@@ -1,0 +1,33 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 10%;
+  padding: 30px;
+  text-align: center;
+  font-size: 1.25rem;
+}
+.blog > h3 {
+  color: blue;
+  font-size: 2rem;
+}
+.blog > h2 {
+  font-size: 3rem;
+}
+.blog > p {
+  margin: 10px 20%;
+}
+.blog-container {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  width: 100%;
+}
+.blog-img img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  margin-right: 20px;
+  object-fit: cover;
+}
